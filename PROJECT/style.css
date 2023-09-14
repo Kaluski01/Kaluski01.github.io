@@ -1,0 +1,351 @@
+body{
+    font-family:'Franklin Gothic Medium';
+    background-color: gold;
+}
+.img-1{
+    width: 50%;
+    filter: invert(100%);
+}
+.carousel-item{
+    max-width: 100%;
+    height: 700px;
+}
+h3{
+    color: black;
+    font-size: 35px;
+}
+.dropdown-menu{
+    background-color: gold;
+}
+.dropdown-item{
+    color: white;
+}
+footer{
+    background-color:#ECE7DF; 
+     height: 400px;
+}
+.logo1{
+    filter: invert(10);
+}
+.card-title:hover{
+    color: #C1B696;
+}
+.carousel-caption{
+    width: 80%;
+    margin-bottom: 200px;
+    color: black;
+    text-align: center;
+}
+.p2{
+    font-size: 30px;
+}
+.section{
+    margin-top: 20px;
+    width: 10%;
+    padding: 100px;
+    margin-bottom: 1rem;
+}
+h3{
+    justify-content: center;
+    font-size: 50px;
+}
+.p1{
+    font-size: 15px;    
+}
+h2{
+    font-size: 50px;
+}
+.logo1{
+    width: 50%;
+}
+.b1{
+    width: 20%;
+    height: 50px;
+    align-items: center;
+    border: none;
+    color: white;
+    background-color: #25282E;
+}
+.b1:hover{
+    color: white;
+    background-color: #C1B696;
+}
+.artists{
+    width: 100%;
+    padding: 10px;
+}
+.artists p{
+}
+.arts{
+    display: flex;
+}
+.row{
+    gap: 10px;
+}
+.location{
+    /* margin: 10px; */
+}
+.k8{
+    border-radius: 20px;
+    width:30%;
+    background-color: black;
+    text-align: center;
+    font-size: 50px;
+}
+.card-img{
+    height: 100vh;
+}
+.card-text{
+    font-size: 20px;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+.last{
+    font-size: 35px;
+}
+li{
+    font-size: 20px;
+}
+.p8{
+    font-size: 20px;
+}
+.ic1{
+}
+hr{
+    color:black;
+    /* background-color: silver; */
+    width: 100%;
+}
+.final{
+    margin-top: 50px;
+}
+.copy-right{
+    font-size: 20px;
+    color: silver;
+}
+.contain{
+    justify-content: space-around;
+}
+.sec{
+    margin-right: 50px;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    color:darkblue;
+}
+/* large devices */
+@media(min-width:992px) and (max-width:1199px){
+    .section{
+        width: 100%;
+    }
+    h2{
+      font-size: 50px;  
+    }
+    .p1{
+        font-size: 25px;
+    }
+    h6{
+        width: 20%;
+        font-size: 20px;
+    }
+    
+}
+    /* medium devicces */
+@media(min-width:768px) and (max-width:991px){
+
+    .carousel-caption{
+        /* position: relative; */
+        /* top: -100px; */
+        width: 80%;
+        
+    } 
+
+        h3{
+            font-size: 45px;
+            color: gold;
+        }
+        .section{
+            width: 100%;
+            position: relative;
+            bottom: 30px;
+        }
+        h2{
+            font-size: 40px;
+                color: gold;
+            /* width: 100%; */
+        }
+        .p1{
+            font-size: 25px;
+        }
+        h6{
+            width: 30%;
+            font-size: 20px;
+        }
+      .contain{
+        width: 100%;
+      }  
+      .last{
+        font-size: 20px;
+      }
+      
+}
+/* small devices */
+@media(min-width:576px) and (max-width:767px){
+    .carousel-caption{
+       width: 80%;
+    }        
+    h3{
+        font-size: 35px;
+        color: white;
+    }
+    .p2{
+        width: 100%;
+    }
+    .section{
+        padding: 20px;
+        width: 100%;
+        position: relative;
+        top: 50px;
+    }
+    h2{
+        font-size: 40px;
+        width: 80%;
+    }
+    .k8{
+        padding-top: 1px;
+        width: 50%;
+        height: 75px;
+    }
+    .artists{
+        /* padding: 10px; */
+    }
+    .carousel{
+        height: 500px;
+    }
+    .p1{
+        font-size: 20px;
+        text-align: center;
+    }
+    h6{
+        width: 30%;
+        font-size: 20px;
+    }
+    .p8{
+        width: 100%;
+        font-size: 15px;
+    }
+    li{
+        font-size: 20px;
+    }
+    .last{
+        width: 100%;
+        font-size: 20px;
+    }
+    .card{
+        width: 80%;
+
+    }
+    
+}
+/* xtra small */
+@media(max-width:575px){
+    .section{
+        width: 100%;
+    }
+    .card{
+        width: 80%;
+    }
+    h3{
+        font-size: 50px;
+        color: beige;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+    }
+    .b6{
+        /* max-width: 100%; */
+        height: 500px;
+    }   
+    .carousel-caption{
+        margin-bottom: 200px;
+        width: 80%;
+    }
+    .section{
+        padding: 5px;
+        position: relative;
+        top: 10px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .p1{
+        font-size: 22px;
+    }
+    .p2{
+            font-size: 20px;
+    }
+    .b1{
+        width: 30%;
+    }
+    .k8{
+        width: 30%;
+        font-size: 20px;
+    }
+    .part{
+        justify-content: center;
+    }
+    .logo1{
+        width: 30%;
+    }
+    .last{
+        text-align: center;
+        }
+
+    footer{
+        height: 800px;
+    }
+    .Socials{
+        width: 100%;    
+    }
+    .ic1{
+        width: 60%;
+    }
+    .last{
+        width: 80%;
+    }
+    h6{
+        font-size: 15px;
+    }
+    .contain{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .final{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+    }
+    hr{
+        width: 100%;
+    }
+    .copy-right{
+        font-size: 20px;
+        width: 80%;
+    }
+    .list-unstyled {
+          /* position: relative; */
+        /* left: 50px; */
+    }
+    .p8{
+        width:50%;
+        /* position: relative; */
+        /* left: 50px; */
+    }
+}
