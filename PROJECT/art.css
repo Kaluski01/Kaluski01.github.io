@@ -102,6 +102,10 @@ p{
 }
 /* xtra small */
 @media(max-width:575px){
+
+    .d-block{
+        width: 50%;
+    }
     .section{
         width: 100%;
     }

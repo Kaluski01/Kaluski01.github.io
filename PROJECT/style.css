@@ -15,7 +15,7 @@ h3{
     font-size: 35px;
 }
 .dropdown-menu{
-    background-color: gold;
+    background-color: black;
 }
 .dropdown-item{
     color: white;
@@ -137,6 +137,9 @@ h1{
     padding: 10px;
     text-align: center;
     color:darkblue;
+}
+.card{
+    background-color: none;
 }
 /* large devices */
 @media(min-width:992px) and (max-width:1199px){
@@ -329,17 +332,14 @@ h1{
         flex-wrap: wrap;
     }
     .final{
-        display: flex;
-        flex-direction: column;
         width: 100%;
-        justify-content: space-around;
     }
     hr{
         width: 100%;
     }
     .copy-right{
-        font-size: 20px;
-        width: 80%;
+        font-size: 15px;
+        /* width: 100%; */
     }
     .list-unstyled {
     }
