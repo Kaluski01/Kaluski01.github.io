@@ -92,6 +92,10 @@ hr{
 }
 /* xtra small */
 @media(max-width:575px){
+
+    .card{
+        width: 50%;
+    }
     .section{
         width: 100%;
     }
@@ -108,7 +112,7 @@ hr{
     }   
     .carousel-caption{
         margin-bottom: 200px;
-        width: 80%;
+        width: 100%;
     }
     .section{
         padding: 5px;
@@ -142,18 +146,22 @@ hr{
         font-size: 25px;
         }
 
+   
+
     footer{
         height: 800px;
-        justify-content: center;
+        /* justify-content: center; */
     }
     .Socials{
         width: 100%;
     }
     .ic1{
-        width: 50%;
+        /* width: 10%; */
+        /* display: flex; */
+        /* flex-direction: row; */
     }
     .last{
-        width: 80%;
+        width: 70%;
     }
     h6{
         font-size: 15px;
@@ -176,8 +184,9 @@ hr{
         font-size: 20px;
         width: 80%;
     }
-    li{
-        margin-right: 20px;
+    .logo1{
+        width: 10%;
+        /* margin-right: 20px; */
     }
 }
 @media(min-width:768px) and (max-width:991px){
