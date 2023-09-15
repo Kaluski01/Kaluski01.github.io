@@ -210,10 +210,6 @@ p{
     .h11{
         height: 65vh;
     }
-
-    .carousel-caption{
-        background-color: black;
-    }
 }
 @media(min-width:768px) and (max-width:991px){
 
